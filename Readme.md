@@ -147,7 +147,7 @@ Select what network you want to manage:
 ![image](https://github.com/user-attachments/assets/d890d51c-4fb1-467f-b1f6-7ebae4685c5c)
 Network Information (Im Running it in privacy mode but the non privacy mode shows your ipv4/ipv6 addresses) :
 ![image](https://github.com/user-attachments/assets/2d8f37b7-69a5-4f3b-892a-93a32b8685ab)
-The options menu:
+    The options menu:
 ![image](https://github.com/user-attachments/assets/bcad9336-c18b-4330-bd21-da6729d2de79)
 
 
