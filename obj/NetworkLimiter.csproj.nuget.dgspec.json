@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\NetworkLimiter.csproj": {}
+    "C:\\Users\\Dylan Minatrea\\Documents\\Github Repos\\NetworkLimiterWindows\\NetworkLimiter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\NetworkLimiter.csproj": {
+    "C:\\Users\\Dylan Minatrea\\Documents\\Github Repos\\NetworkLimiterWindows\\NetworkLimiter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\NetworkLimiter.csproj",
+        "projectUniqueName": "C:\\Users\\Dylan Minatrea\\Documents\\Github Repos\\NetworkLimiterWindows\\NetworkLimiter.csproj",
         "projectName": "NetworkLimiter",
-        "projectPath": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\NetworkLimiter.csproj",
+        "projectPath": "C:\\Users\\Dylan Minatrea\\Documents\\Github Repos\\NetworkLimiterWindows\\NetworkLimiter.csproj",
         "packagesPath": "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\obj\\",
+        "outputPath": "C:\\Users\\Dylan Minatrea\\Documents\\Github Repos\\NetworkLimiterWindows\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
