@@ -1,0 +1,327 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\interfaces\\networkusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\interfaces\\networkusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\interfaces\\inetworkusagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\interfaces\\inetworkusagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\platform\\linux\\linuxbandwidthlimiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\platform\\linux\\linuxbandwidthlimiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\platform\\linux\\linuxnetworkusagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\platform\\linux\\linuxnetworkusagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\platform\\windows\\windowsbandwidthlimiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\platform\\windows\\windowsbandwidthlimiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\platform\\windows\\windowsnetworkusagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\platform\\windows\\windowsnetworkusagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\utilities\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\utilities\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\core\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\core\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\core\\platformfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\core\\platformfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\core\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\core\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\src\\networkmonitorapp\\interfaces\\ibandwidthlimiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:src\\networkmonitorapp\\interfaces\\ibandwidthlimiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\networklimiter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:networklimiter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\docs\\about.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:docs\\about.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\scripts\\deploy.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:scripts\\deploy.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\scripts\\build.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:scripts\\build.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|c:\\users\\dylan minatrea\\source\\repos\\networklimiter\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}|NetworkLimiter.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-11-16T20:30:09.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PasswordManager.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Core\\PasswordManager.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Core\\PasswordManager.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Core\\PasswordManager.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Core\\PasswordManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:19:58.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Utilities\\Helper.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Utilities\\Helper.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Utilities\\Helper.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Utilities\\Helper.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAUwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:12:26.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NetworkLimiter.csproj",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\NetworkLimiter.csproj",
+              "RelativeDocumentMoniker": "NetworkLimiter.csproj",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\NetworkLimiter.csproj",
+              "RelativeToolTip": "NetworkLimiter.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-16T19:58:01.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "about.md",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\docs\\about.md",
+              "RelativeDocumentMoniker": "docs\\about.md",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\docs\\about.md",
+              "RelativeToolTip": "docs\\about.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-11-16T19:54:44.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "deploy.sh",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\scripts\\deploy.sh",
+              "RelativeDocumentMoniker": "scripts\\deploy.sh",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\scripts\\deploy.sh",
+              "RelativeToolTip": "scripts\\deploy.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGSSURBVDhPpZO/agJBEId/uZgIWghiI4I2NhIUtLOwuJRHLhACtoKlnc/gI4jgI4hdJIQrAqmCvUWC2FqphSCi5o\u002BXmXFvT3IWgXzw4TI7M87t7eFfuK57ppaMQVrkFXlBHu8xLvlJvpFP5Dep4eJHkpP\u002BokOek5obMpCYzWbdWCwWiCvvSPlnhsfWJBIJ1Ot12LYt60KhgEgkonY1UuONYZLXvKhWq2g2m0in09jv9xxCPp9HuVyWZuPxWGLEK/kSOqz9A9vtdohGo7AsC6HQYZsOG\u002Bv1Gt1uF4PBQGIe3iNolsulJDYaDQyHQ2y3W8znc0wmE/T7fZXlE2hgGIYUTadTdDodzGYzmardbmO1Wqksn0CDcDiMZDKJXC6HTCYj57BYLLDZbPSZHOM14NeiqVQqUpxKpaSIJ\u002BJHKpVKKsPHa8A3THAcB61WS0aPx\u002BMy/mg0Qq1WQ6/XU1nCh/oVbPL3RXGLxaJrmmYgrrwnNXwf\u002BHqeSjzlMynv\u002BPiD4Sa3JN\u002BwSw6cgMd\u002BJx/ILw78E\u002BAHyDum0hZCUq4AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-11-16T19:54:09.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "build.sh",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\scripts\\build.sh",
+              "RelativeDocumentMoniker": "scripts\\build.sh",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\scripts\\build.sh",
+              "RelativeToolTip": "scripts\\build.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGSSURBVDhPpZO/agJBEId/uZgIWghiI4I2NhIUtLOwuJRHLhACtoKlnc/gI4jgI4hdJIQrAqmCvUWC2FqphSCi5o\u002BXmXFvT3IWgXzw4TI7M87t7eFfuK57ppaMQVrkFXlBHu8xLvlJvpFP5Dep4eJHkpP\u002BokOek5obMpCYzWbdWCwWiCvvSPlnhsfWJBIJ1Ot12LYt60KhgEgkonY1UuONYZLXvKhWq2g2m0in09jv9xxCPp9HuVyWZuPxWGLEK/kSOqz9A9vtdohGo7AsC6HQYZsOG\u002Bv1Gt1uF4PBQGIe3iNolsulJDYaDQyHQ2y3W8znc0wmE/T7fZXlE2hgGIYUTadTdDodzGYzmardbmO1Wqksn0CDcDiMZDKJXC6HTCYj57BYLLDZbPSZHOM14NeiqVQqUpxKpaSIJ\u002BJHKpVKKsPHa8A3THAcB61WS0aPx\u002BMy/mg0Qq1WQ6/XU1nCh/oVbPL3RXGLxaJrmmYgrrwnNXwf\u002BHqeSjzlMynv\u002BPiD4Sa3JN\u002BwSw6cgMd\u002BJx/ILw78E\u002BAHyDum0hZCUq4AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-11-16T19:53:59.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LinuxBandwidthLimiter.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Platform\\Linux\\LinuxBandwidthLimiter.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Platform\\Linux\\LinuxBandwidthLimiter.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Platform\\Linux\\LinuxBandwidthLimiter.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Platform\\Linux\\LinuxBandwidthLimiter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:53:41.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LinuxNetworkUsageTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Platform\\Linux\\LinuxNetworkUsageTracker.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Platform\\Linux\\LinuxNetworkUsageTracker.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Platform\\Linux\\LinuxNetworkUsageTracker.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Platform\\Linux\\LinuxNetworkUsageTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:53:27.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WindowsBandwidthLimiter.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Platform\\Windows\\WindowsBandwidthLimiter.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Platform\\Windows\\WindowsBandwidthLimiter.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Platform\\Windows\\WindowsBandwidthLimiter.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Platform\\Windows\\WindowsBandwidthLimiter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:53:15.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WindowsNetworkUsageTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Platform\\Windows\\WindowsNetworkUsageTracker.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Platform\\Windows\\WindowsNetworkUsageTracker.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Platform\\Windows\\WindowsNetworkUsageTracker.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Platform\\Windows\\WindowsNetworkUsageTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:53:05.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlatformFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Core\\PlatformFactory.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Core\\PlatformFactory.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Core\\PlatformFactory.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Core\\PlatformFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:52:41.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Core\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Core\\NetworkManager.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Core\\NetworkManager.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Core\\NetworkManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:52:34.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworkUsage.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Interfaces\\NetworkUsage.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Interfaces\\NetworkUsage.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Interfaces\\NetworkUsage.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Interfaces\\NetworkUsage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:52:14.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBandwidthLimiter.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Interfaces\\IBandwidthLimiter.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Interfaces\\IBandwidthLimiter.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Interfaces\\IBandwidthLimiter.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Interfaces\\IBandwidthLimiter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:52:06.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "INetworkUsageTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Interfaces\\INetworkUsageTracker.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Interfaces\\INetworkUsageTracker.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Interfaces\\INetworkUsageTracker.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Interfaces\\INetworkUsageTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:51:48.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-16T19:51:24.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-11-16T19:51:03.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Program.cs",
+              "RelativeDocumentMoniker": "src\\NetworkMonitorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\src\\NetworkMonitorApp\\Program.cs",
+              "RelativeToolTip": "src\\NetworkMonitorApp\\Program.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAYwLsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:47:30.94Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

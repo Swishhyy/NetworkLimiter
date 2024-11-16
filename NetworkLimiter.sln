@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLimiter", "NetworkLimiter.csproj", "{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C5FCE1-65A8-43F3-A887-56FAE7E01B49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77EDA1A6-1DA9-47F2-AF67-1A0B9B8BFC97}
+	EndGlobalSection
+EndGlobal
