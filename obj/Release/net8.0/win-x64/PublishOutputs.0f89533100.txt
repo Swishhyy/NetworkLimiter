@@ -1,0 +1,5 @@
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\win-x64\publish\win-x64\NetworkLimiter.exe
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\win-x64\publish\win-x64\NetworkLimiter.dll
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\win-x64\publish\win-x64\NetworkLimiter.deps.json
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\win-x64\publish\win-x64\NetworkLimiter.runtimeconfig.json
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\win-x64\publish\win-x64\NetworkLimiter.pdb

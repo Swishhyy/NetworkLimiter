@@ -61,11 +61,8 @@ namespace NetworkMonitorApp
                 // Initialize previous byte counts
                 InitializeNetworkStatistics();
 
-                // Set up a timer to update network statistics every second
-                timer = new System.Timers.Timer(1000); // Interval in milliseconds
-                timer.Elapsed += UpdateNetworkStatistics;
-                timer.AutoReset = true;
-                timer.Enabled = true;
+                // Set up the timer
+                SetupTimer();
 
                 // Start the live updates
                 isRunning = true;
@@ -87,8 +84,12 @@ namespace NetworkMonitorApp
                             // Display the options menu
                             DisplayOptionsMenu();
 
-                            // After returning from the options menu, resume updates
-                            timer.Start();
+                            // After returning from the options menu, resume updates if still running
+                            if (isRunning)
+                            {
+                                Console.Clear();
+                                SetupTimer();
+                            }
                         }
                         else if (key.Key == ConsoleKey.C && key.Modifiers.HasFlag(ConsoleModifiers.Control))
                         {
@@ -108,9 +109,28 @@ namespace NetworkMonitorApp
             }
             finally
             {
+                // Stop and dispose of the timer when the application is exiting
+                if (timer != null)
+                {
+                    timer.Stop();
+                    timer.Dispose();
+                    timer = null;
+                }
+
                 Console.WriteLine("Exiting application...");
-                Console.ReadLine();
+                // Removed Console.ReadLine(); to allow the application to exit immediately
             }
+        }
+
+        static void SetupTimer()
+        {
+            if (timer == null)
+            {
+                timer = new System.Timers.Timer(1000); // Interval in milliseconds
+                timer.Elapsed += UpdateNetworkStatistics;
+                timer.AutoReset = true;
+            }
+            timer.Start();
         }
 
         static void InitializeNetworkStatistics()
@@ -126,28 +146,37 @@ namespace NetworkMonitorApp
         /// <param name="e">Elapsed event arguments.</param>
         static void UpdateNetworkStatistics(Object source, System.Timers.ElapsedEventArgs e)
         {
-            if (!timer.Enabled)
+            try
             {
-                // If the timer is not enabled, skip updating
-                return;
+                if (!timer.Enabled)
+                {
+                    // If the timer is not enabled, skip updating
+                    return;
+                }
+
+                long currentBytesSent = GetTotalBytesSent(selectedInterface);
+                long currentBytesReceived = GetTotalBytesReceived(selectedInterface);
+
+                long bytesSentPerSecond = currentBytesSent - previousBytesSent;
+                long bytesReceivedPerSecond = currentBytesReceived - previousBytesReceived;
+
+                double mbSentPerSecond = bytesSentPerSecond / (1024.0 * 1024.0);
+                double mbReceivedPerSecond = bytesReceivedPerSecond / (1024.0 * 1024.0);
+
+                // Update previous byte counts
+                previousBytesSent = currentBytesSent;
+                previousBytesReceived = currentBytesReceived;
+
+                // Display live network statistics
+                DisplayLiveNetworkStatistics(mbSentPerSecond, mbReceivedPerSecond);
             }
-
-            long currentBytesSent = GetTotalBytesSent(selectedInterface);
-            long currentBytesReceived = GetTotalBytesReceived(selectedInterface);
-
-            long bytesSentPerSecond = currentBytesSent - previousBytesSent;
-            long bytesReceivedPerSecond = currentBytesReceived - previousBytesReceived;
-
-            double mbSentPerSecond = bytesSentPerSecond / (1024.0 * 1024.0);
-            double mbReceivedPerSecond = bytesReceivedPerSecond / (1024.0 * 1024.0);
-
-            // Update previous byte counts
-            previousBytesSent = currentBytesSent;
-            previousBytesReceived = currentBytesReceived;
-
-            // Display live network statistics
-            DisplayLiveNetworkStatistics(mbSentPerSecond, mbReceivedPerSecond);
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred in UpdateNetworkStatistics: " + ex.Message);
+                // Optionally, log the exception or handle it as needed
+            }
         }
+
 
         static void DisplayLiveNetworkStatistics(double mbSentPerSecond, double mbReceivedPerSecond)
         {

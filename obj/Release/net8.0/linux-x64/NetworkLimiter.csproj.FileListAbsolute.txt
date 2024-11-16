@@ -1,0 +1,15 @@
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\linux-x64\NetworkLimiter
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\linux-x64\NetworkLimiter.deps.json
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\linux-x64\NetworkLimiter.runtimeconfig.json
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\linux-x64\NetworkLimiter.dll
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\bin\Release\net8.0\linux-x64\NetworkLimiter.pdb
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\NetworkLimiter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\NetworkLimiter.AssemblyInfoInputs.cache
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\NetworkLimiter.AssemblyInfo.cs
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\NetworkLimiter.csproj.CoreCompileInputs.cache
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\NetworkLimiter.sourcelink.json
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\NetworkLimiter.dll
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\refint\NetworkLimiter.dll
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\NetworkLimiter.pdb
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\NetworkLimiter.genruntimeconfig.cache
+C:\Users\Dylan Minatrea\source\repos\NetworkLimiter\obj\Release\net8.0\linux-x64\ref\NetworkLimiter.dll
