@@ -14,13 +14,7 @@ A cross-platform network monitoring and bandwidth control application built with
   - [Options Menu](#options-menu)
 - [Privacy Mode](#privacy-mode)
 - [Password Protection](#password-protection)
-- [Building from Source](#building-from-source)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 - [Screenshots](#screenshots)
-- [Acknowledgments](#acknowledgments)
-- [Issues](#issues)
 
 ---
 
