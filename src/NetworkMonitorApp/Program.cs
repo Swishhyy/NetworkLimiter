@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using NetworkMonitorApp.Core;
 using NetworkMonitorApp.Utilities;
 using NetworkLimiter.src.NetworkMonitorApp.Core;
+using SharpPcap;
 
 namespace NetworkMonitorApp
 {
@@ -56,7 +57,8 @@ namespace NetworkMonitorApp
                 networkManager = new NetworkManager();
 
                 // Network selection prompt
-                SelectNetworkInterface();
+                selectedInterface = SelectNetworkInterface();
+                DisplaySelectedInterfaceDetails(selectedInterface);
 
                 // Initialize previous byte counts
                 InitializeNetworkStatistics();
@@ -214,139 +216,85 @@ namespace NetworkMonitorApp
             // Instructions for the user
             Console.WriteLine("Press 'M' to open the options menu, or 'Ctrl+C' to exit.");
         }
-
-        static void SelectNetworkInterface()
+        private static string SelectNetworkInterface()
         {
-            // Retrieve available network interfaces
-            var interfaces = networkManager.GetUsages().Select(u => u.InterfaceName).Distinct().ToList();
-
-            if (interfaces.Count == 0)
+            var devices = CaptureDeviceList.Instance;
+            if (devices.Count == 0)
             {
                 Console.WriteLine("No network interfaces found.");
                 Environment.Exit(0);
             }
 
-            // Display interfaces
+            // Display a user-friendly list of interfaces
             Console.WriteLine("Available Network Interfaces:");
-            for (int i = 0; i < interfaces.Count; i++)
+            for (int i = 0; i < devices.Count; i++)
             {
-                Console.WriteLine($"{i + 1}. {interfaces[i]}");
+                Console.WriteLine($"{i + 1}. {devices[i].Description}");
             }
 
-            // Prompt user for selection
-            int selectedIndex = -1;
-            while (selectedIndex < 0 || selectedIndex >= interfaces.Count)
+            // Prompt user to select an interface
+            int choice = -1;
+            while (choice < 1 || choice > devices.Count)
             {
-                Console.Write("Select the network interface you want to manage (enter the number): ");
-                string input = Console.ReadLine();
-                if (int.TryParse(input, out int index) && index > 0 && index <= interfaces.Count)
+                Console.Write("Select the network interface by number: ");
+                if (int.TryParse(Console.ReadLine(), out choice) && choice > 0 && choice <= devices.Count)
                 {
-                    selectedIndex = index - 1;
+                    return devices[choice - 1].Name; // Return the raw device name
                 }
-                else
-                {
-                    Console.WriteLine("Invalid selection. Please try again.");
-                }
+                Console.WriteLine("Invalid selection. Try again.");
             }
 
-            selectedInterface = interfaces[selectedIndex];
+            return null;
+        }
+        private static void DisplaySelectedInterfaceDetails(string interfaceName)
+        {
+            var device = CaptureDeviceList.Instance.FirstOrDefault(dev => dev.Name == interfaceName);
+            if (device != null)
+            {
+                Console.WriteLine($"\nYou selected: {device.Description}");
+            }
+            else
+            {
+                Console.WriteLine("Error: Selected interface not found.");
+            }
         }
         static void DisplayNetworkInformation()
         {
-            // Retrieve network interface details
-            var networkInterface = NetworkInterface.GetAllNetworkInterfaces()
-                .FirstOrDefault(ni => ni.Name == selectedInterface);
+            // Retrieve the selected device from SharpPcap's CaptureDeviceList
+            var device = CaptureDeviceList.Instance.FirstOrDefault(dev => dev.Name == selectedInterface);
 
-            if (networkInterface == null)
+            if (device == null)
             {
                 Console.WriteLine("Selected network interface not found.");
                 Environment.Exit(0);
             }
-
-            // Get IP properties
-            var ipProperties = networkInterface.GetIPProperties();
-
-            // Collect IP addresses
-            var ipv4Addresses = ipProperties.UnicastAddresses
-                .Where(ip => ip.Address.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)
-                .Select(ip => ip.Address.ToString())
-                .ToList();
-
-            var ipv6Addresses = ipProperties.UnicastAddresses
-                .Where(ip => ip.Address.AddressFamily == System.Net.Sockets.AddressFamily.InterNetworkV6)
-                .Select(ip => ip.Address.ToString())
-                .ToList();
-
-            // Get network statistics
-            var statistics = networkInterface.GetIPv4Statistics();
-
-            // Clear console (if desired)
-            // You might want to remove this if the console is cleared elsewhere
-            // Console.Clear();
 
             // Display section header with color
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("=== Network Interface Details ===\n");
             Console.ResetColor();
 
-            // Display Name
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("{0,-20}: ", "Name");
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("{0}", networkInterface.Name);
-
             // Display Description
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("{0,-20}: ", "Description");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("{0}", networkInterface.Description);
+            Console.WriteLine("{0}", device.Description);
 
-            // Display Type
+            // Display Name
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("{0,-20}: ", "Type");
+            Console.Write("{0,-20}: ", "Raw Name");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("{0}", networkInterface.NetworkInterfaceType);
-
-            // Display Status
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("{0,-20}: ", "Status");
-            Console.ForegroundColor = networkInterface.OperationalStatus == OperationalStatus.Up ? ConsoleColor.Green : ConsoleColor.Red;
-            Console.WriteLine("{0}", networkInterface.OperationalStatus);
-
-            // Display Speed
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("{0,-20}: ", "Speed");
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("{0} Mbps", networkInterface.Speed / 1_000_000);
+            Console.WriteLine("{0}", device.Name);
 
             // Add an empty line for spacing
             Console.WriteLine();
 
             if (!isPrivacyMode)
             {
-                // Display IPv4 Addresses
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.Write("{0,-20}: ", "IPv4 Addresses");
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("{0}", string.Join(", ", ipv4Addresses));
+                // Note: SharpPcap doesn't directly provide IP address details, so these fields are omitted here.
 
-                // Display IPv6 Addresses
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.Write("{0,-20}: ", "IPv6 Addresses");
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("{0}", string.Join(", ", ipv6Addresses));
-
-                // Display Bytes Received
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.Write("{0,-20}: ", "Bytes Received");
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("{0}", statistics.BytesReceived);
-
-                // Display Bytes Sent
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.Write("{0,-20}: ", "Bytes Sent");
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("{0}", statistics.BytesSent);
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("IP details are not available through SharpPcap.");
             }
             else
             {
@@ -358,7 +306,7 @@ namespace NetworkMonitorApp
             // Add an empty line for spacing
             Console.WriteLine();
 
-            // Display Speed Limit
+            // Display Speed Limit (if applicable)
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("{0,-20}: ", "Speed Limit");
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -370,6 +318,7 @@ namespace NetworkMonitorApp
             // Add an empty line for spacing
             Console.WriteLine();
         }
+
 
         static void DisplayOptionsMenu()
         {

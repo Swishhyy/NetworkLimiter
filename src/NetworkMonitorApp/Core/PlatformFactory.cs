@@ -21,7 +21,6 @@ namespace NetworkLimiter.src.NetworkMonitorApp.Core
             else
                 throw new PlatformNotSupportedException("Only Windows and Linux are supported.");
         }
-
         public static IBandwidthLimiter GetBandwidthLimiter()
         {
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
@@ -31,5 +30,6 @@ namespace NetworkLimiter.src.NetworkMonitorApp.Core
             else
                 throw new PlatformNotSupportedException("Only Windows and Linux are supported.");
         }
+
     }
 }

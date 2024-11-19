@@ -394,3 +394,6 @@ C:\Users\Dylan Minatrea\Documents\Github Repos\NetworkLimiterWindows\obj\Debug\n
 C:\Users\Dylan Minatrea\Documents\Github Repos\NetworkLimiterWindows\obj\Debug\net8.0\win-x64\NetworkLimiter.pdb
 C:\Users\Dylan Minatrea\Documents\Github Repos\NetworkLimiterWindows\obj\Debug\net8.0\win-x64\NetworkLimiter.genruntimeconfig.cache
 C:\Users\Dylan Minatrea\Documents\Github Repos\NetworkLimiterWindows\obj\Debug\net8.0\win-x64\ref\NetworkLimiter.dll
+C:\Users\Dylan Minatrea\Documents\Github Repos\NetworkLimiterWindows\bin\Debug\net8.0\win-x64\PacketDotNet.dll
+C:\Users\Dylan Minatrea\Documents\Github Repos\NetworkLimiterWindows\bin\Debug\net8.0\win-x64\SharpPcap.dll
+C:\Users\Dylan Minatrea\Documents\Github Repos\NetworkLimiterWindows\obj\Debug\net8.0\win-x64\NetworkLimiter.csproj.AssemblyReference.cache

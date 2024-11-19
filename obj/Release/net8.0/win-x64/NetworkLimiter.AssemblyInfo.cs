@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetworkLimiter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e907d504f1cb3c7585ad989fb7e433ae60cc8c00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd566a241743ea25304f476c9dfb175108c2a557")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetworkLimiter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetworkLimiter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

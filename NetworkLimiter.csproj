@@ -14,4 +14,8 @@
     <Folder Include="tests\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SharpPcap" Version="6.3.0" />
+  </ItemGroup>
+
 </Project>

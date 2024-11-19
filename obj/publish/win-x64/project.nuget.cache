@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Rl8N5sgBTSI=",
+  "dgSpecHash": "Gn36QWZUhBA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dylan Minatrea\\source\\repos\\NetworkLimiter\\NetworkLimiter.csproj",
+  "projectFilePath": "C:\\Users\\Dylan Minatrea\\Documents\\Github Repos\\NetworkLimiterWindows\\NetworkLimiter.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\packetdotnet\\1.4.7\\packetdotnet.1.4.7.nupkg.sha512",
+    "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\sharppcap\\6.3.0\\sharppcap.6.3.0.nupkg.sha512",
+    "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.8\\microsoft.netcore.app.runtime.win-x64.8.0.8.nupkg.sha512",
     "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.8\\microsoft.netcore.app.runtime.linux-x64.8.0.8.nupkg.sha512",
     "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.8\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.8.nupkg.sha512",
